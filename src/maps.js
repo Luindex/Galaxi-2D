@@ -1,13 +1,13 @@
 const emojis = {
   "-": " ",
-  O: "🚪",
-  X: "💣",
-  I: "🎁",
-  PLAYER: "💀",
+  O: "🌍",
+  X: "👽",
+  I: "🚀",
+  PLAYER: "👨‍🚀",
   BOMB_COLLISION: "🔥",
   GAME_OVER: "👎",
   WIN: "🏆",
-  HEART: "💖",
+  HEART: "❤",
 }
 
 const maps = []
@@ -59,3 +59,27 @@ maps.push(`
       XX----XIXX
       XXXXXXXXXX
     `)
+maps.push(`
+    XXXXXXXIXX
+    XXXXXXX-XX
+    X-------XX
+    X-XXXXXXXX
+    X-------XX
+    XXXXXXX-XX
+    X-------XX
+    X-XXXXXXXX
+    X------OXX
+    XXXXXXXXXX
+  `)
+maps.push(`
+    XXXXXXXO--
+    -------XX-
+    -XXXXX--X-
+    -X----X-X-
+    -X-XX-X-X-
+    -X-XI-X-X-
+    -X-XXXX-X-
+    -X------X-
+    -XXXXXXXX-
+    ----------
+  `)
