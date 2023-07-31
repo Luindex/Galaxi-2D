@@ -35,15 +35,11 @@ let enemyPosition = [] //creamos un array de Cada posicion de los enemigos
 window.addEventListener("load", setCanvasSize) //Escuchar apenas cargue el archivo HTML
 window.addEventListener("resize", setCanvasSize) //escuchamos el reize, que lo que hace es que cada vez que se cambie el tama;o de la pantalla llama a la function Stargame
 
-// function fixNumer(n) {
-//   return Number(n.toFixed(2))
-// }
-
 function setCanvasSize() {
   if (window.innerHeight > window.innerWidth) {
-    canvasSize = window.innerWidth * 0.7
+    canvasSize = window.innerWidth * 0.6
   } else {
-    canvasSize = window.innerHeight * 0.7
+    canvasSize = window.innerHeight * 0.6
   }
 
   canvasSize = Number(canvasSize.toFixed(0))
